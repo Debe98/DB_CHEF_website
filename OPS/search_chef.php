@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Quaderno 4 L.D. Ricerca</title>
+	<link rel="stylesheet" type="text/css" href="CSS/graficaS.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+	<p id="header"><a href="L_index.html">HOME</a></p>
+	<div id="centro">
+		<div id="spazio">
+		</div>
+		<h3>Ricerca</h3>
+	</div>
+	<h4>Compila i campi per effettuare la ricerca</h4>
+	<form name="ricerca" action="ris_ricerca.php" method="GET">
+		<table>
+			<tr>
+				<td width="200"><p>Codice Fiscale:</p></td><td width="200"><select name="CodiceFiscaleChef" class="obb">
+				<option value="none" selected>Nessuno</option>
+
+
+
+				</select></td>
+			</tr>
+			<tr>
+				<td><p>Canale TV:</p></td><td><input type="text" name="CanaleTV" value="inserisci qui il canale TV" size="30" class="obb"></td>
+			</tr>
+		</table>
+		<input class="button" type="submit" name="invia" value="Avvia Ricerca">
+		<input class="button" type="reset" name="annulla" value="Annulla">
+	</form>
+	<p id="footer">&copy; Luca Debernardi | s244685 PoliTO | Basi di dati | Quaderno 4</p>
+</body>
+</html>
